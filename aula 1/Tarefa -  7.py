@@ -1,9 +1,8 @@
-def calcule_area_quadrada(lado):
-    return lado ** 2
-
+def calcular_area_quadrado(lado):
+    return lado** 2
 
 # Exemplo de uso
-lado =floant(impu)("Digite o valo do quadrado:"))
-area = calcular_area_quadrado(lado
-dobro_area = area* 2
-print(f"A área do quadrado é {area:.2f}")
+lado = float(input("Digite o valor do quadrado: "))
+area = calcular_area_quadrado(lado)
+dobro_area = area * 2
+print("o dobro da área é ", dobro_area)
